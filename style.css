@@ -28,3 +28,10 @@ section{
         background-image: url(images/top-banner.png);
         background-repeat: no-repeat;
 }
+.assist{
+    padding-top: 150px;
+}
+.assts{
+        color: rgb(244, 64, 124);
+        font-weight: 700;
+}
