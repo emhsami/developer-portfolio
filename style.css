@@ -7,9 +7,12 @@ h1{
 }
 .name-color{
     color: orange;
+    
 }
-section{
+.flx-cont
+{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -28,9 +31,7 @@ section{
         background-image: url(images/top-banner.png);
         background-repeat: no-repeat;
 }
-.assist{
-    padding-top: 150px;
-}
+
 .assts{
         color: rgb(244, 64, 124);
         font-weight: 700;
@@ -49,4 +50,50 @@ section{
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 100px;
+}
+.exp{
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    font-weight: 700;
+    font-size: 100px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;     
+}
+.txt-color{
+        color: rgb(139, 136, 136);
+}
+.box{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    
+}
+.fnt-sz{
+    font-size: 70px;
+
+}
+.name-size{
+    font-size: 70px;
+}
+#side-bar-right{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);   
+    border-image-slice: 1;
+    
+}
+
+#side-bar-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(249, 27, 179), rgb(255, 200, 0));
+    border-image-slice: 1;
+}
+footer{
+    color: rgb(125, 121, 121);
+    text-align: center;
+    
 }
